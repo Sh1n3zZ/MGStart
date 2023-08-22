@@ -29,12 +29,11 @@ const active = ref(false);
       在使用本项目前，希望你可以仔细阅读本页中的相关内容，万分感谢
       本项目原版作者为我的好朋友 <a href="https://github.com/zmh-program" target="_blank">@zmh-program</a> ，由我 <a href="https://github.com/Sh1n3zZ" target="_blank">@Sh1n3zZ</a> 二开并进行二次分发，在此十分感谢他愿意将此项目开源出来！
 
-    <div class="form">
       <h3 class="community">关于登录</h3>
       由于本项目部分资源涉及到跨设备同步，因此需要登陆账号实现此功能，这里是关于账号的相关说明，为方便更好的理解，此板块将以 Q&A 的形式进行表述。
       Q：这是什么账号？我需要怎么注册？
-      A：此账号为 <a href="https://deeptrain.net/" target="_blank">Deeptrain</a> 账号，其隶属于 <a href="https://lightxi.com/" target="_blank">珠海市晞云云科技有限公司</a> ，因此部分云服务由 <a href="https://lightxi.com/" target="_blank">珠海市晞云云科技有限公司</a> 提供。注册功能尚未完善，敬请期待。
-    </div>
+      A：此账号为 <a href="https://deeptrain.net/" target="_blank">Deeptrain</a> 账号，隶属于 <a href="https://lightxi.com/" target="_blank">珠海市晞云云科技有限公司</a> ，因此部分云服务由 <a href="https://lightxi.com/" target="_blank">珠海市晞云云科技有限公司</a> 提供。注册功能尚未完善，敬请期待。
+
 
 
       🍏 一言：在这里，你可以发现随机的名人名言，这些名言会给你带来灵感和启发，让你的每一天都充满动力！
