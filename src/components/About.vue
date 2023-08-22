@@ -13,7 +13,7 @@ const active = ref(false);
 </script>
 <template>
   <div class="about" :class="{'focus': !input && storage.about}">
-    <span>© 2023</span>
+    <span>© 2023 珠海市晞云云科技有限公司 All Rights Reserved.</span>
     <div class="split" />
     <span class="button" @click="active = true">{{ t("about") }}</span>
   </div>
@@ -32,7 +32,7 @@ const active = ref(false);
       <h3 class="community">关于登录</h3>
       由于本项目部分资源涉及到跨设备同步，因此需要登陆账号实现此功能，这里是关于账号的相关说明，为方便更好的理解，此板块将以 Q&A 的形式进行表述。
       Q：这是什么账号？我需要怎么注册？
-      A：此账号为 <a href="https://deeptrain.net/" target="_blank">Deeptrain</a> 账号，隶属于 <a href="https://lightxi.com/" target="_blank">珠海市晞云云科技有限公司</a> ，因此部分云服务由 <a href="https://lightxi.com/" target="_blank">珠海市晞云云科技有限公司</a> 提供。注册功能尚未完善，敬请期待。
+      A：此账号为 <a href="https://deeptrain.net/" target="_blank">Deeptrain</a> 账号， <a href="https://deeptrain.net/" target="_blank">Deeptrain</a> 项目隶属于 <a href="https://lightxi.com/" target="_blank">珠海市晞云云科技有限公司</a> ，因此部分云服务由 <a href="https://lightxi.com/" target="_blank">珠海市晞云云科技有限公司</a> 提供。注册功能尚未完善，敬请期待。
 
 
 
