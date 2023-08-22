@@ -34,10 +34,10 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,webp,png}'],
         globDirectory: 'dist',
         runtimeCaching: [{
-          urlPattern: new RegExp('^https://cdn.zmh-program.site/fystart/'),
+          urlPattern: new RegExp('^https://zzcdn.uerr.cn/mgaide/'),
           handler: "CacheFirst",
           options: {
-            cacheName: "fystart-cdn",
+            cacheName: "mgaide-cdn",
             expiration: {
               maxEntries: 10,
               maxAgeSeconds: 60 * 60 * 24 * 365,
