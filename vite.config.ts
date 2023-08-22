@@ -18,8 +18,8 @@ export default defineConfig({
       injectRegister: 'inline',
       includeAssets: ['favicon.ico', 'icon.png', 'background.webp'],
       manifest: {
-        name: 'Fystart',
-        short_name: 'Fystart',
+        name: 'MGAide丨StartPage',
+        short_name: 'MGAide丨StartPage',
         theme_color: '#1E1E1EFF',
         icons: [{
             src: 'icon.png',
