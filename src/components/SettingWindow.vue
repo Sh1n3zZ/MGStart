@@ -143,6 +143,7 @@ function logout() {
           </div>
         </div>
         <input type="url" v-model="storage.background" :placeholder="t('input-background')">
+        <span>自定义背景</span>
       </div>
     </div>
     <div class="form">
@@ -186,7 +187,7 @@ function logout() {
   },
   "zh": {
     "settings": "设置",
-    "account": "账号",
+    "account": "账号（不要点我 还没写完）",
     "login": "登录",
     "logout": "登出",
     "general": "常规设置",
