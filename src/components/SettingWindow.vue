@@ -23,14 +23,12 @@ const active = ref(false);
 const { t, locale } = useI18n({ messages: EngineI18n });
 const images = [
     "/background.webp",
-    "/background/hills.webp",
-    "/background/lake.webp",
-    "/background/mountain.webp",
-    "/background/morning.webp",
-    "/background/forest.webp",
-    "/background/ocean.webp",
-    "/background/snow.webp",
-    "/background/sunshine.webp",
+    "/background/Han_EMOHanser.webp",
+    "/background/Han_Bed.webp",
+    "/background/Han_Flower.webp",
+    "/background/Han_Night.webp",
+    "/background/Han_Tree.webp",
+    "/background/Han_Umbrella.webp",
 ]
 
 function redirect() {
