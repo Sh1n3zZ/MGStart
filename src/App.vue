@@ -17,16 +17,6 @@ if (storage.focusInput) window.addEventListener('load', () => {
 });
 </script>
 
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?d40a6fc111c20e7283541c35a065fecf";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
 <template>
   <main>
     <Background :focus="focus" />
