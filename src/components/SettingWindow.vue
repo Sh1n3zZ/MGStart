@@ -142,8 +142,8 @@ function logout() {
             <check class="check" v-if="storage.background === image" />
           </div>
         </div>
+        <span>{{ t('backgroundcustom') }}</span>
         <input type="url" v-model="storage.background" :placeholder="t('input-background')">
-        <span>自定义背景</span>
       </div>
     </div>
     <div class="form">
@@ -183,7 +183,8 @@ function logout() {
     "focus-desc": "Auto focus on the search bar when entering",
     "toolbox": "Tool Box",
     "quote": "Quote",
-    "about": "About"
+    "about": "About",
+    "backgroundcustom": "Custom Background"
   },
   "zh": {
     "settings": "设置",
@@ -203,7 +204,8 @@ function logout() {
     "focus-desc": "进入时自动聚焦搜索栏",
     "toolbox": "工具箱",
     "quote": "一言",
-    "about": "关于"
+    "about": "关于",
+    "backgroundcustom": "自定义背景"
   },
   "tw": {
     "settings": "設定",
@@ -223,7 +225,8 @@ function logout() {
     "focus-desc": "進入時自動聚焦搜尋欄",
     "toolbox": "工具箱",
     "quote": "一言",
-    "about": "關於"
+    "about": "關於",
+    "backgroundcustom": "自定義背景"
   },
   "ru": {
     "settings": "Настройки",
@@ -243,7 +246,8 @@ function logout() {
     "focus-desc": "Автоматически фокусироваться на строке поиска при входе",
     "toolbox": "Инструменты",
     "quote": "Цитата",
-    "about": "О программе"
+    "about": "О программе",
+    "backgroundcustom": "Настройка фона"
   },
   "de": {
     "settings": "Einstellungen",
@@ -263,7 +267,8 @@ function logout() {
     "focus-desc": "Autofokus auf die Suchleiste beim Eingeben",
     "toolbox": "Werkzeugkasten",
     "quote": "Zitat",
-    "about": "Über"
+    "about": "Über",
+    "backgroundcustom": "Benutzerdefinierter Hintergrund"
   },
   "fr": {
     "settings": "Paramètres",
@@ -283,7 +288,8 @@ function logout() {
     "focus-desc": "Mise au point automatique sur la barre de recherche lors de la saisie",
     "toolbox": "Boîte à outils",
     "quote": "Citation",
-    "about": "À propos"
+    "about": "À propos",
+    "backgroundcustom": "Arrière - plan personnalisé"
   },
   "ja": {
     "settings": "設定",
@@ -302,7 +308,8 @@ function logout() {
     "focus": "オートフォーカス",
     "focus-desc": "入力時に検索バーに自動的にフォーカスします",
     "toolbox": "ツールボックス",
-    "quote": "引用"
+    "quote": "引用",
+    "backgroundcustom": "カスタム背景"
   }
 }
 </i18n>
