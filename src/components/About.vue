@@ -13,7 +13,7 @@ const active = ref(false);
 </script>
 <template>
   <div class="about" :class="{'focus': !input && storage.about}">
-    <span>© 2023 珠海市晞云云科技有限公司 All Rights Reserved.</span>
+    <span>© 2023 LightXi Inc.</span>
     <div class="split" />
     <span class="button" @click="active = true">{{ t("about") }}</span>
   </div>
