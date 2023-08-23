@@ -32,7 +32,7 @@ const images = [
 ]
 
 function redirect() {
-  location.href = 'https://deeptrain.net/login?app=fystart';
+  location.href = 'https://deeptrain.net/login?app=mgaide';
 }
 
 watch(locale, () => storage.language = locale.value);
@@ -188,7 +188,7 @@ function logout() {
   },
   "zh": {
     "settings": "设置",
-    "account": "账号（不要点我 还没写完）",
+    "account": "账号",
     "login": "登录",
     "logout": "登出",
     "general": "常规设置",
