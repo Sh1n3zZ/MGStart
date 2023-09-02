@@ -34,7 +34,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,webp,png}'],
         globDirectory: 'dist',
         runtimeCaching: [{
-          urlPattern: new RegExp('^https://zzcdn.uerr.cn/mgaide/'),
+          urlPattern: new RegExp('^https://cdn.lightxi.com/mgaide/'),
           handler: "CacheFirst",
           options: {
             cacheName: "mgaide-cdn",

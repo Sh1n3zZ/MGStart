@@ -19,7 +19,7 @@ export function insertScript(src: string) {
 }
 
 export const withCdn = (src: string) => (
-  src.startsWith("/") ? `https://zzcdn.uerr.cn/mgaide${src}` : src
+  src.startsWith("/") ? `https://cdn.lightxi.com/mgaide${src}` : src
 );
 
 export function contain(el: Element, target: HTMLElement, exclude?: boolean): boolean {
